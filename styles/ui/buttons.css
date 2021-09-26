@@ -1,0 +1,35 @@
+.button_orange {
+    background: #FF460C;
+    border-radius: 42px;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.button_banner_01 {
+    font-size: 20px;
+    padding: 10px 28px;
+}
+.button_banner_03 a{
+    text-decoration: none;
+    color: white;
+}
+.button_banner_03 {
+    box-sizing: content-box;
+    padding: 14px 90px;
+}
+.button_banner_08 {
+    background: #FF460C;
+    border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-color: #FF460C;
+}
+@media all and (max-width: 760px) {
+    .button_banner_03 {
+        box-sizing: content-box;
+        padding: 14px 50px;
+    }
+}

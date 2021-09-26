@@ -1,0 +1,129 @@
+.banner_06 {
+	background-image:  url('../../../images/page_6/city.svg');
+	background-position: top;
+    margin-top: 150px;
+}
+.banner_06 h1 {
+    text-align: center;
+    text-decoration: none;
+    margin: 80px;
+}
+.banner_06_grid {
+    display: grid;
+    grid-template: 27% 14% 14% 14% 27% / 20% 10% 17% 17% 15% 15%;
+    grid-template-areas: "banner_06_grid_01 banner_06_grid_02 banner_06_grid_03 banner_06_grid_04 banner_06_grid_05 banner_06_grid_05"
+                         "banner_06_grid_01 banner_06_grid_02 banner_06_grid_07 banner_06_grid_04 banner_06_grid_05 banner_06_grid_05"
+                         "banner_06_grid_06 banner_06_grid_06 banner_06_grid_07 banner_06_grid_04 banner_06_grid_05 banner_06_grid_05"
+                         "banner_06_grid_06 banner_06_grid_06 banner_06_grid_07 banner_06_grid_04 banner_06_grid_09 banner_06_grid_10"
+                         "banner_06_grid_06 banner_06_grid_06 banner_06_grid_07 banner_06_grid_08 banner_06_grid_09 banner_06_grid_10";            
+  
+    min-height: 540px; 
+    max-width: 100%;
+    margin-bottom: 50px;
+    grid-gap: 18px;
+
+}
+.banner_06_grid_01 {
+    grid-area: banner_06_grid_01;
+    background-image:  url('../../../images/page_6/image_1.jpg');
+}
+.banner_06_grid_02 {
+    grid-area: banner_06_grid_02;
+    background-image:  url('../../../images/page_6/image_2.jpg');
+}
+.banner_06_grid_03 {
+    grid-area: banner_06_grid_03;
+    background-image:  url('../../../images/page_6/image_3.jpg');
+}
+.banner_06_grid_04 {
+    grid-area: banner_06_grid_04;
+    background-image:  url('../../../images/page_6/image_4.jpg');
+}
+.banner_06_grid_05 {
+    grid-area: banner_06_grid_05;
+    background-image:  url('../../../images/page_6/image_5.jpg');
+}
+.banner_06_grid_06 {
+    grid-area: banner_06_grid_06;
+    background-image:  url('../../../images/page_6/image_6.jpg');
+
+}
+.banner_06_grid_07 {
+    grid-area: banner_06_grid_07;
+    background-image:  url('../../../images/page_6/image_7.jpg');
+
+}
+.banner_06_grid_08 {
+    grid-area: banner_06_grid_08;
+    background-image:  url('../../../images/page_6/image_8.jpg');
+
+}
+.banner_06_grid_09 {
+    grid-area: banner_06_grid_09;
+    background-image:  url('../../../images/page_6/image_9.jpg');
+
+}
+.banner_06_grid_10 {
+    grid-area: banner_06_grid_10;
+    background-image:  url('../../../images/page_6/image_10.jpg');
+
+}
+.banner_06_grid_all {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    background-position: center;
+    box-sizing: border-box;
+}
+@media all and (max-width: 1920px) {
+	.banner_06 {
+		padding-top:  0px;
+		margin-top: 65px;
+		background-size: contain;
+	}
+    .banner_06 h1 {
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+    .banner_06_grid {
+        grid-template: 13% 7% 7% 7% 14% / 40% 20% 38%;
+        grid-template-areas: "banner_06_grid_01 banner_06_grid_02 banner_06_grid_03"
+                             "banner_06_grid_01 banner_06_grid_02 banner_06_grid_07" 
+                             "banner_06_grid_06 banner_06_grid_06 banner_06_grid_07" 
+                             "banner_06_grid_06 banner_06_grid_06 banner_06_grid_07" 
+                             "banner_06_grid_06 banner_06_grid_06 banner_06_grid_07"          
+                             "banner_06_grid_04 banner_06_grid_05 banner_06_grid_05"
+                             "banner_06_grid_04 banner_06_grid_05 banner_06_grid_05"
+                             "banner_06_grid_04 banner_06_grid_05 banner_06_grid_05"
+                             "banner_06_grid_04 banner_06_grid_09 banner_06_grid_10"
+                             "banner_06_grid_08 banner_06_grid_09 banner_06_grid_10";
+
+        min-height: 1225px; 
+        box-sizing: border-box;
+        padding: 50px 125px 30px;
+    }
+}   
+@media all and (max-width: 999px) {
+    .banner_06_grid {
+        grid-template: 12% 19% 8% 16% 8% 19% 12% / 48% 10% 40%;
+        grid-template-areas: "banner_06_grid_01 banner_06_grid_01 banner_06_grid_02"
+                             "banner_06_grid_06 banner_06_grid_06 banner_06_grid_06" 
+                             "banner_06_grid_03 banner_06_grid_04 banner_06_grid_04" 
+                             "banner_06_grid_07 banner_06_grid_04 banner_06_grid_04" 
+                             "banner_06_grid_07 banner_06_grid_08 banner_06_grid_08"          
+                             "banner_06_grid_05 banner_06_grid_05 banner_06_grid_05"
+                             "banner_06_grid_09 banner_06_grid_10 banner_06_grid_10";
+                          
+        min-height: 1640px; 
+        box-sizing: border-box;
+        padding: 0 100px;
+    }
+}
+@media all and (max-width: 760px) {
+    .banner_06_grid {
+        padding: 0 20px;
+        width: 100%;
+        grid-gap: 12px;
+        max-width: 100%;
+    }
+}

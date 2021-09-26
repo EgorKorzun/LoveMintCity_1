@@ -1,0 +1,54 @@
+.banner_08 {
+	background-size: cover;
+	background-image:  url('../../../images/5U3A2354\ 1.jpg');
+	overflow: hidden;
+	background-position: center;
+}
+.banner_08_form {
+    background-color: white;
+    max-width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 27px;
+    box-sizing: border-box;
+    position: relative;
+    top: -50px;
+}
+.banner_08_form input:not(:last-child), textarea{
+    margin: 6px 0px;
+    font-size: 10.535px;
+    line-height: 12px;
+    font-family:'Roboto', sans-serif;
+
+}
+.banner_08_form h2 {
+    font-weight: 400;
+    font-size: 19.565px;
+    line-height: 23px;    
+    font-family:'Roboto', sans-serif;
+    margin: 0px;
+}
+.banner_08_form h3 {
+    font-weight: 400;
+    font-size: 13.545px;
+    line-height: 16px;
+    font-family:'Roboto', sans-serif;
+    margin: 10px, 0px;
+}
+
+label {
+    font-size: 10.535px;
+    line-height: 12px;
+    font-family:'Roboto', sans-serif;
+    margin-left: 10px ;
+}
+.banner_08_form p {
+    display: flex;
+}
+@media all and (max-width: 760px) {
+    .banner_08-img {
+        visibility: hidden;
+    }
+
+}

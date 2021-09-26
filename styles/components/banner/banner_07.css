@@ -1,0 +1,19 @@
+.banner_07 {
+    background-image:  url('../../../images/banner_7.svg');
+    box-sizing: border-box;
+    background-position: center;
+    margin-bottom: 50px;
+    background-size: cover;
+
+} 
+.banner_07_flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+@media all and (max-width: 999px) {
+    .banner_07 {
+        margin-bottom: 3px; 
+    } 
+}

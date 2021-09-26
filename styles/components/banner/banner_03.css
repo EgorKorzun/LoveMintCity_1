@@ -1,0 +1,28 @@
+.banner_03 {
+    background-image:  url('../../../images/page_3/Rectangle\ 93.svg');
+    background-size: cover;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-position: center;
+} 
+
+.banner_03_header {
+    text-align: center;
+    color: white;
+    padding-top: 75px;
+}
+
+.banner_03_footer {
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+}
+.banner_03_footer_none {
+    visibility: hidden;
+}
+@media (max-width: 760px) {  
+   .banner_03_header {
+        padding-top: 20px;
+    }
+
+}

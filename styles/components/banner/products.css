@@ -1,0 +1,101 @@
+.banner_03_product {
+	display: flex;
+	flex-wrap:  wrap;
+	justify-content: center;
+    padding-bottom: 130px;
+    box-sizing: border-box;
+}
+.banner_03_product-items {
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+    max-width: 30%;
+    margin: 10px;
+    box-sizing: border-box;
+    margin-top: 70px;
+    text-decoration: none;
+}
+.banner_03_prod-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.banner_05_product {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+.banner_05_product-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    min-width: 180px;
+    color: white;
+    background-color:#013344;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+}
+.activ_coment{
+    color: black;
+    background-color:white;
+}
+
+.banner_05_product p {
+    margin: 0 20px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+}
+.banner_05_product-items img {
+    max-width: 50px;
+    margin: 25px;
+    border-radius: 50%;
+}
+
+.banner_07_product {
+    max-width: 720px;
+    background-color: white;
+    padding: 65px 110px;
+    border-radius: 10px;
+    max-width: 720px;
+    box-sizing: border-box;
+    margin-bottom: 85px;
+    margin-top: 20px;
+}
+.banner_07_product_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_07_product_nav h3:not(:nth-child(1)) {
+    opacity: 0.5;
+}
+.banner_07_product p>a {
+    text-decoration: none;
+    color: black;
+}
+@media all and (max-width: 1280px) {
+    .banner_03_product-items {
+        max-width: 45%;
+        margin-top: 0px;
+
+    }
+}
+@media all and (max-width: 760px) {
+    .banner_03_product-items {
+        max-width: 90%;
+    }
+    .banner_07_product {
+        padding: 20px 20px;
+        max-width: 440px;
+    }
+}

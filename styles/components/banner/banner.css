@@ -1,0 +1,14 @@
+@import "banner_01.css";
+@import "banner_02.css";
+@import "banner_03.css";
+@import "banner_04.css";
+@import "banner_05.css";
+@import "banner_06.css";
+@import "banner_07.css";
+@import "banner_08.css";
+@import "products.css";
+.banner {
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	width: 100%;
+}

@@ -1,0 +1,25 @@
+.container {
+	width:  100%;
+	padding-left: 250px;
+	padding-right: 250px;
+	box-sizing:  border-box;
+}
+.content {
+	display: flex;
+}
+@media all and (max-width: 1920px){
+	.container {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+@media all and (max-width: 760px){
+	.container {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+html {
+	scroll-behavior: smooth;
+}
