@@ -45,9 +45,15 @@ header {
 .header_tel {
 	padding: 10px 35px;
 }
+.header_menu a:hover{
+	text-decoration: underline;
+}
 .header_tel a {
 	color: #FFFFFF;
 	text-decoration: none;
+}
+.header_tel a:hover {
+	text-decoration: underline;
 }
 @media all and (max-width: 1028px) {
 	.header_menu a {
@@ -78,6 +84,9 @@ header {
 		right: -200px;
 		opacity: 0.8;
 		transition: right 1s ease-out;
+	}
+	.mobile_menu a:hover {
+		text-decoration: underline;
 	}
 	.-is-active .mobile_menu {
 		right: 0px;
